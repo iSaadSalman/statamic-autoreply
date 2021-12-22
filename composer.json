@@ -1,0 +1,19 @@
+{
+    "name": "i-saad-salman/statamic-autoreply",
+    "autoload": {
+        "psr-4": {
+            "ISaadSalman\\StatamicAutoreply\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Autoreply",
+            "description": "Statamic Autoreply addon"
+        },
+        "laravel": {
+            "providers": [
+                "ISaadSalman\\StatamicAutoreply\\ServiceProvider"
+            ]
+        }
+    }
+}
